@@ -1,0 +1,19 @@
+body {
+    background-color: green;
+}
+.wrapper {
+  width:800px;
+  margin:50px auto 0 auto;
+  overflow: hidden;
+}
+h1 {
+  text-align: center;
+}
+
+/*Characters start here..*/
+.mike, .jesse-pinkman,
+.walter-white, .saul-goodman {
+  width: 200px;
+  background-color: black;
+  float: left;
+}
