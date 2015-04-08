@@ -135,7 +135,7 @@ Characters start here..
   clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
 }
 
-.mike .wringles, .mike .wringles:before {
+.mike .wrinkles, .mike .wrinkles:before {
     position: absolute;
     height: 2px;
     background-color: #9e6c44;
@@ -146,7 +146,7 @@ Characters start here..
     border-radius: 50%;
 }
 
-.mike .wringles:before {
+.mike .wrinkles:before {
   content:"";
   top: -4px;
   width:16px;
