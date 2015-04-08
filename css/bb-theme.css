@@ -119,14 +119,31 @@ Characters start here..
   left:16px;
   top:0;
 }
+/*Ear ring: could add more markup ..*/
+.mike .eyes:after {
+  content: "";
+  position: absolute;
+  left: -30px;
+  top: -5px;
+  width: 8px;
+  height: 5px;
+  background-color: #cdd1d4;
+  border-radius: 50%;
+  border: 1px solid #000;
+  transform: rotate(-27deg);
+  -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
 
 .mike .wringles, .mike .wringles:before {
-  position:absolute;
-  border:1px solid #9e6c44;
-  width: 22px;
-  z-index: 9;
-  top: 22px;
-  left: 19px;
+    position: absolute;
+    height: 2px;
+    background-color: #9e6c44;
+    width: 22px;
+    z-index: 9;
+    top: 22px;
+    left: 19px;
+    border-radius: 50%;
 }
 
 .mike .wringles:before {
