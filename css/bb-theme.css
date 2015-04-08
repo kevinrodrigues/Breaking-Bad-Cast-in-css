@@ -156,7 +156,7 @@ Characters start here..
 .mike .beard {
   width: 18px;
   position: absolute;
-  bottom: 0;
+  bottom: -1px;
   left: 21px;
   height: 17px;
   background-color: #dfd3c3;
@@ -166,13 +166,32 @@ Characters start here..
   border:1px solid #000;
 }
 
-.mike .beard:before {
+.mike .beard:before, .mike .beard:after {
   content: "";
   position: absolute;
-  left: 3px;
-  top: 3px;
-  width: 10px;
+}
+
+.mike .beard:after {
+  left: 6px;
+  top: 5px;
+  width: 4px;
   height: 8px;
+  background-color: #dfd3c3;
+  border-top: 1px solid #000;
+  border-left: 1px solid #000;
+  border-right: 1px solid #000;
+  border-radius: 50%;
+}
+
+.mike .beard:before {
+  width: 10px;
+  height: 10px;
+  left: 3px;
+  top: 2px;
   background-color: #d5a171;
+  border: 1px solid #000;
+  border-radius: 100px;
+  border-bottom-right-radius: 500px;
+  border-bottom-left-radius: 500px;
 }
 
