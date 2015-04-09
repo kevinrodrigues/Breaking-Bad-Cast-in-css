@@ -104,7 +104,7 @@ Characters start here..
 }
 
 .mike .eyes, .mike .eyes:before {
-  width: 3px;
+  width: 4px;
   height: 5px;
   background-color: black;
   position: absolute;
@@ -125,7 +125,7 @@ Characters start here..
   position: absolute;
   left: -30px;
   top: -5px;
-  width: 8px;
+  width: 7px;
   height: 5px;
   background-color: #cdd1d4;
   border-radius: 50%;
@@ -180,7 +180,7 @@ Characters start here..
   border-top: 1px solid #000;
   border-left: 1px solid #000;
   border-right: 1px solid #000;
-  border-radius: 50%;
+  border-radius: 153px;
 }
 
 .mike .beard:before {
@@ -190,7 +190,7 @@ Characters start here..
   top: 2px;
   background-color: #d5a171;
   border: 1px solid #000;
-  border-radius: 100px;
+  border-radius: 300px;
   border-bottom-right-radius: 500px;
   border-bottom-left-radius: 500px;
 }
