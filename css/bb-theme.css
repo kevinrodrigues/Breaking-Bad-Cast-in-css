@@ -195,7 +195,27 @@ Characters start here..
   border-bottom-left-radius: 500px;
 }
 
-.mike .body {
-  
+.mike .torso {
+  width: 33px;
+  position: absolute;
+  left: 31px;
+  top: 69px;
+  height: 36px;
+  background-color: #333;
 }
 
+.mike .torso .left, .mike .torso .right {
+  width: 50%;
+  position: absolute;
+  height: 100%;
+  border: 2px solid #000;
+  background-color: #333; 
+}
+
+.mike .torso .left {
+  left:0;
+}
+
+.mike .torso .right {
+  right:0;
+}
