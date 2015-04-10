@@ -6,10 +6,7 @@ html {
   box-sizing: inherit;
 }
 body {
-    background: #253624; /* Old browsers */
-    background: -moz-radial-gradient(center, ellipse cover,  #253624 0%, #4d594d 50%, #253624 100%);
-    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#253624), color-stop(50%,#4d594d), color-stop(100%,#253624)); /* Chrome,Safari4+ */
-    background: -webkit-radial-gradient(center, ellipse cover,  #253624 0%,#4d594d 50%,#253624 100%);
+    background: #253624;
 }
 
 @font-face {
@@ -43,7 +40,7 @@ Characters start here..
 .characters {
     /*background: url(../img/template.png) no-repeat 0 0;*/
     position: relative;
-    height: 400px;
+    height: 210px;
     overflow: hidden;
 }
 
@@ -65,7 +62,7 @@ Characters start here..
 .mike {
   width:95px;
   height:140px;
-  top: 93px;
+  top: 13px;
   left: 194px;
   /*opacity:0.5;*/
 }
