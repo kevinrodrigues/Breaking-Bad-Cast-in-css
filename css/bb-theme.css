@@ -46,6 +46,7 @@ Characters start here..
 
 .characters img {
   opacity: 0.3;
+  margin-top: -80px;
 }
 
 .mike, .jesse-pinkman,
@@ -74,6 +75,7 @@ Characters start here..
   text-align: center;
   position: relative;
   bottom: -110px;
+  letter-spacing: 1.2px;
 }
 
 .mike .head {
@@ -394,4 +396,60 @@ Characters start here..
   width: 6px;
   left: 7px;
 }
+
+
+/* Jesse Pinkman styles*/
+
+.jesse {
+  position: absolute;
+  width: 95px;
+  height: 140px;
+  top: 13px;
+  left: 295px;
+  opacity: 0.3;
+}
+
+.jesse .head {
+  position: absolute;
+  z-index: 15;
+  left: 18px;
+  top: 12px;
+  width: 61px;
+  height: 64px;
+  border: 2px solid #000;
+  border-radius: 59px / 59px;
+  background-color: #d5a171;
+}
+
+.jesse .eyes, .jesse .eyes:before {
+  width: 4px;
+  height: 7px;
+  background-color: black;
+  position: absolute;
+  left: 19px;
+  top: 30px;
+  border-radius: 50%;
+}
+
+.jesse .eyes:before {
+  content:"";
+  position:absolute;
+  left:16px;
+  top:0;
+}
+
+.jesse .hazmat-hat {
+  position: absolute;
+  top: 6px;
+  left: 16px;
+  z-index: 99;
+  border-bottom: 34px solid #000;
+  border-left: 27px solid transparent;
+  border-right: 27px solid transparent;
+  height: 0;
+  width: 65px;
+  border-top-left-radius: 170px;
+  border-top-right-radius: 170px;
+}
+
 
