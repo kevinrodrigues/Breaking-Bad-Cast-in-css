@@ -252,6 +252,7 @@ Characters start here..
   transform: rotate(155deg);
 }
 
+
 .mike .legs, .mike .legs:before {
   width: 16px;
   height: 20px;
@@ -268,6 +269,7 @@ Characters start here..
   right: -17px;
   left: initial;
 }
+
 
 .mike .shoes div {
   position: absolute;
@@ -302,3 +304,4 @@ Characters start here..
   width: 6px;
   left: 7px;
 }
+
