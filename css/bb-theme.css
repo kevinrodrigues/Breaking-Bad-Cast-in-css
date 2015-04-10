@@ -30,7 +30,7 @@ body {
 }
 
 h1 {
-  font-family: 'heart_breaking_badregular', arial, georgia, sans-serif;
+  font-family: 'heart_breaking_badregular';
   text-align: center;
   font-size:4em;
   color:white;
@@ -70,9 +70,18 @@ Characters start here..
   /*opacity:0.5;*/
 }
 
+.characters p {
+  font-family: 'heart_breaking_badregular';
+  color: #fff;
+  font-size: 1.5em;
+  text-align: center;
+  position: relative;
+  bottom: -110px;
+}
+
 .mike .head {
   position: absolute;
-  z-index: 9;
+  z-index: 15;
   left: 15px;
   top: 7px;
   width: 64px;
@@ -231,6 +240,47 @@ Characters start here..
   right: 1px;
 }
 
+.mike .torso .hands:before, .mike .torso .hands:after {
+  content: "";
+  position: absolute;
+  top:31px;
+  width: 2px;
+  height: 5px;
+  background-color: #000;
+  border-radius: 50%;
+}
+
+.mike .torso .hands:before {
+  left:-6px;
+  transform: rotate(159deg);
+}
+
+.mike .torso .hands:after {
+  left:initial;
+  right: -5px;
+  transform: rotate(-159deg);
+}
+
+.mike .torso .hands div:before, .mike .torso .hands div:after {
+  content: "";
+  position: absolute;
+  width: 11px;
+  height: 15px;
+  top: 25px;
+  background-color: #d5a171;
+  border-radius: 30px / 40px;
+  z-index: -1;
+  border: 2px solid #000;
+}
+
+.mike .torso .hands div:before {
+  left: -13px;
+}
+
+.mike .torso .hands div:after {
+  right: -12px;
+}
+
 .mike .torso .shirt:before, .mike .torso .shirt:after {
   position: absolute;
   content: "";
@@ -252,6 +302,50 @@ Characters start here..
   transform: rotate(155deg);
 }
 
+.mike .collar:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid #71c3c5;
+  left: 11px;
+  top: 10px;
+  z-index: 9;
+}
+
+.mike .collar .left, .mike .collar .right {
+  position: absolute;
+  z-index: 10;
+  width:4px;
+  height:17px;
+  background-color: #504f4f;
+  border: 1px solid #000;
+}
+
+.mike .collar .left {
+  left: 5px;
+  top: -2px;
+  transform: rotate(139deg);
+}
+
+.mike .collar .right {
+  right: 6px;
+  top: -2px;
+  transform: rotate(-139deg);
+}
+
+.mike .collar:after {
+  content: "";
+  position: absolute;
+  top: 8px;
+  left: 11px;
+  z-index: 9;
+  width: 10px;
+  height: 2px;
+  background-color: #d5a171;
+}
 
 .mike .legs, .mike .legs:before {
   width: 16px;
@@ -269,7 +363,6 @@ Characters start here..
   right: -17px;
   left: initial;
 }
-
 
 .mike .shoes div {
   position: absolute;
