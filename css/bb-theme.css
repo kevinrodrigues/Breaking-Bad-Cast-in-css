@@ -421,6 +421,17 @@ Characters start here..
   background-color: #d5a171;
 }
 
+.jesse .head:before {
+  content: "";
+  height: 9px;
+  position: absolute;
+  top: 12px;
+  width: 57px;
+  border-radius: 60%;
+  background-color: #9a9886;
+  border: 1px solid #000;
+}
+
 .jesse .eyes, .jesse .eyes:before {
   width: 4px;
   height: 7px;
@@ -579,6 +590,31 @@ Characters start here..
   right: 26px;
   left: initial;
   z-index: 99;
+}
+
+.jesse .legs {
+  position:absolute;
+}
+
+.jesse .legs:after, .jesse .legs:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    bottom: -44px;
+    width: 16px;
+    height: 20px;
+    background-color: #545454;
+    border: 2px solid #000;
+    transform: skewX(-4deg);
+}
+
+.jesse .legs:after {
+    left: 34px;
+}
+
+.jesse .legs:before {
+  left: 50px;
+  transform: skewX(2deg);
 }
 
 
