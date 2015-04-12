@@ -406,7 +406,6 @@ Characters start here..
   height: 140px;
   top: 143px;
   left: 295px;
-  /*opacity: 0.3;*/
 }
 
 .jesse .head {
@@ -556,7 +555,7 @@ Characters start here..
 .jesse .torso:after, .jesse .torso:before {
   content: "";
   position: absolute;
-  top: 46px;
+  top: 48px;
   z-index: 99;
   height: 9px;
   width: 15px;
@@ -573,6 +572,66 @@ Characters start here..
   left:0;
 }
 
+.jesse .under-garms {
+  content: "";
+  position: absolute;
+  width: 0;
+  left: 7px;
+  top: 13px;
+  height: 0;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-top: 23px solid #fff;
+}
+
+.jesse .under-garms:before {
+  content: "";
+  position: absolute;
+  left: -2px;
+  width: 4px;
+  height: 6px;
+  background-color: #fff;
+  border: 1px solid #2b3055;
+  border-radius: 50%;
+}
+
+.jesse .under-garms:after {
+  content: "";
+  position: absolute;
+  z-index: 9;
+  width: 0;
+  height: 0;
+  border-left: 2px solid transparent;
+  border-right: 2px solid transparent;
+  border-top: 14px solid #639835;
+  top: -20px;
+  left: -2px;
+}
+
+.jesse .neckline {
+  content: "";
+  position: absolute;
+  left: 11px;
+  top: 13px;
+  width: 0;
+  height: 0;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-top: 18px solid #494A47;
+}
+
+.jesse .neckline:before {
+  content: "";
+  position: absolute;
+  top: -17px;
+  left: -2px;
+  z-index: 9;
+  width: 4px;
+  height: 3px;
+  border-bottom: 1px solid #414222;
+  background-color: #a87459;
+}
+
 .jesse .shoes div {
   position: absolute;
   height: 15px;
@@ -580,7 +639,7 @@ Characters start here..
   border-radius: 90px 90px 0 0;
   background: #777777;
   top: 121px;
-  left: 31px;
+  left: 32px;
   border: 1px solid #000;
   z-index: 99;
   border-bottom: 3px solid #000;
@@ -601,20 +660,20 @@ Characters start here..
     position: absolute;
     z-index: -1;
     bottom: -44px;
-    width: 16px;
+    width: 17px;
     height: 20px;
     background-color: #545454;
     border: 2px solid #000;
-    transform: skewX(-4deg);
+    transform: skewX(-3deg);
 }
 
 .jesse .legs:after {
-    left: 34px;
+    left: 33px;
 }
 
 .jesse .legs:before {
   left: 50px;
-  transform: skewX(2deg);
+  transform: skewX(3deg);
 }
 
 
