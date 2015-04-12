@@ -576,11 +576,11 @@ Characters start here..
   content: "";
   position: absolute;
   width: 0;
-  left: 7px;
+  left: 9px;
   top: 13px;
   height: 0;
-  border-left: 8px solid transparent;
-  border-right: 8px solid transparent;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
   border-top: 23px solid #fff;
 }
 
@@ -608,11 +608,12 @@ Characters start here..
   left: -2px;
 }
 
-.jesse .neckline {
+.jesse .zipper-outline {
   content: "";
   position: absolute;
-  left: 11px;
-  top: 13px;
+  z-index: 1;
+  left: 46px;
+  top: 73px;
   width: 0;
   height: 0;
   border-left: 4px solid transparent;
@@ -620,16 +621,52 @@ Characters start here..
   border-top: 18px solid #494A47;
 }
 
-.jesse .neckline:before {
+.jesse .neckline:before, .jesse .neckline:after {
   content: "";
   position: absolute;
-  top: -17px;
-  left: -2px;
+}
+.jesse .neckline:before {
+  top: 13px;
+  left: 12px;
   z-index: 9;
-  width: 4px;
+  width: 6px;
   height: 3px;
   border-bottom: 1px solid #414222;
   background-color: #a87459;
+}
+
+.jesse .neckline:after {
+  left: 7px;
+  top: 12px;
+  width: 0;
+  height: 0;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-top: 26px solid #494A47;
+}
+
+.jesse .arms {
+  position: relative;
+  z-index: -1;
+}
+.jesse .arms div {
+  position: absolute;
+  left: -26px;
+  top: 14px;
+  height: 23px;
+  width: 39px;
+  border-radius: 36px 36px 0 0;
+  border: 2px solid #000;
+  background-color: #b0990f;
+  transform: rotate(-90deg);
+}
+
+.jesse .arms div:last-child {
+  position: absolute;
+  left:initial;
+  right: -27px;
+  border-radius: 36px 36px 0 0;
+  transform: rotate(90deg);
 }
 
 .jesse .shoes div {
