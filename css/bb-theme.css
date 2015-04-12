@@ -609,7 +609,6 @@ Characters start here..
 }
 
 .jesse .zipper-outline {
-  content: "";
   position: absolute;
   z-index: 1;
   left: 46px;
@@ -619,6 +618,30 @@ Characters start here..
   border-left: 4px solid transparent;
   border-right: 4px solid transparent;
   border-top: 18px solid #494A47;
+}
+
+.jesse .zipper-outline:before, .jesse .zipper-outline:after {
+  content: "";
+  position: absolute;
+  top: -18px;
+}
+
+.jesse .zipper-outline:before {
+  left: 3px;
+  width: 9px;
+  height: 5px;
+  background-color: #000;
+  border-top: 3px solid #fff;
+  transform: rotate(-53deg);
+}
+
+.jesse .zipper-outline:after {
+  left: -12px;
+  width: 9px;
+  height: 5px;
+  background-color: #000;
+  border-top: 3px solid #fff;
+  transform: rotate(53deg);
 }
 
 .jesse .neckline:before, .jesse .neckline:after {
