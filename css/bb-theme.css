@@ -668,28 +668,48 @@ Characters start here..
   border-top: 26px solid #494A47;
 }
 
-.jesse .arms {
-  position: relative;
-  z-index: -1;
-}
-.jesse .arms div {
+.jesse .hands:before, .jesse .hands:after {
+  content: "";
   position: absolute;
-  left: -26px;
-  top: 14px;
-  height: 23px;
-  width: 39px;
-  border-radius: 36px 36px 0 0;
-  border: 2px solid #000;
-  background-color: #b0990f;
-  transform: rotate(-90deg);
+  z-index: 10;
+  top: 35px;
+  width: 2px;
+  height: 5px;
+  background-color: #000;
+  border-radius: 50%;
 }
 
-.jesse .arms div:last-child {
-  position: absolute;
+.jesse .hands:before {
+  left: 4px;
+  transform: rotate(-61deg);
+}
+
+.jesse .hands:after {
   left:initial;
-  right: -27px;
-  border-radius: 36px 36px 0 0;
-  transform: rotate(90deg);
+  right: -5px;
+  transform: rotate(-159deg);
+}
+
+.jesse .hands div:before, .jesse .hands div:after {
+  content: "";
+  position: absolute;
+  width: 11px;
+  /* z-index: 99; */
+  height: 15px;
+  top: 30px;
+  background-color: #d5a171;
+  border-radius: 30px / 40px;
+  z-index: 9;
+  border: 2px solid #000;
+}
+
+.jesse .hands div:before {
+  left: -3px;
+  transform: rotate(-30deg);
+}
+
+.jesse .hands div:after {
+  right: -12px;
 }
 
 .jesse .shoes div {
