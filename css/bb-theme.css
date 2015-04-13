@@ -668,48 +668,47 @@ Characters start here..
   border-top: 26px solid #494A47;
 }
 
-.jesse .hands:before, .jesse .hands:after {
-  content: "";
-  position: absolute;
-  z-index: 10;
-  top: 35px;
-  width: 2px;
-  height: 5px;
-  background-color: #000;
-  border-radius: 50%;
-}
-
-.jesse .hands:before {
-  left: 4px;
-  transform: rotate(-61deg);
-}
-
-.jesse .hands:after {
-  left:initial;
-  right: -5px;
-  transform: rotate(-159deg);
-}
-
 .jesse .hands div:before, .jesse .hands div:after {
   content: "";
   position: absolute;
   width: 11px;
-  /* z-index: 99; */
-  height: 15px;
-  top: 30px;
+  height: 8px;
+  top: 34px;
   background-color: #d5a171;
-  border-radius: 30px / 40px;
   z-index: 9;
-  border: 2px solid #000;
+  border: 1px solid #000;
 }
 
 .jesse .hands div:before {
-  left: -3px;
-  transform: rotate(-30deg);
+  left: -1px;
+  transform: rotate(-77deg);
 }
 
 .jesse .hands div:after {
-  right: -2px;
+  right: -1px;
+  transform: rotate(77deg);
+}
+
+.jesse .hands:after, .jesse .hands:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 10px;
+  width: 30px;
+  height: 30px;
+  background-color: #b0990f;
+  border: 2px solid #000;
+  border-radius: 7px;
+}
+
+.jesse .hands:after {
+  left: -14px;  
+  transform: rotate(40deg);
+}
+
+.jesse .hands:before {
+  right:-13px;
+  transform: rotate(-40deg);
 }
 
 .jesse .shoes div {
