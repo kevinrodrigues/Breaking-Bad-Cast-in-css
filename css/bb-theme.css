@@ -709,7 +709,7 @@ Characters start here..
 }
 
 .jesse .hands div:after {
-  right: -12px;
+  right: -2px;
 }
 
 .jesse .shoes div {
@@ -755,6 +755,3 @@ Characters start here..
   left: 50px;
   transform: skewX(3deg);
 }
-
-
-
