@@ -672,7 +672,7 @@ Characters start here..
   content: "";
   position: absolute;
   width: 11px;
-  height: 8px;
+  height: 6px;
   top: 34px;
   background-color: #d5a171;
   z-index: 9;
@@ -686,7 +686,7 @@ Characters start here..
 
 .jesse .hands > div:after {
   right: -1px;
-  transform: rotate(77deg);
+  transform: rotate(74deg);
 }
 
 .jesse .hands:after, .jesse .hands:before {
@@ -733,6 +733,43 @@ Characters start here..
   border-top: 3px solid transparent;
   border-bottom: 3px solid transparent;
   border-left: 3px solid #000;
+}
+
+.jesse .pockets span {
+  position: absolute;
+  top: 29px;
+  left: -5px;
+  width: 10px;
+  height: 10px;
+  border-top: 1px solid #000;
+  transform: rotate(40deg);
+  background-color: #b0990f;
+}
+
+.jesse .pockets span:last-child {
+  left: inherit;
+  right:-5px;
+  transform: rotate(-36deg);
+}
+
+.jesse .pockets span:before {
+  content: "";
+  position: absolute;
+  top: -5px;
+  width: 1px;
+  height: 16px;
+  background-color: #000;
+}
+
+.jesse .pockets span:before {
+  left: 12px;
+  transform: rotate(-25deg);
+}
+
+.jesse .pockets span:last-child:before {
+  left: inherit;
+  right: 12px;
+  transform: rotate(18deg);
 }
 
 .jesse .shoes div {
