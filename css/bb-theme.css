@@ -815,3 +815,49 @@ Characters start here..
   left: 50px;
   transform: skewX(3deg);
 }
+
+
+/*Start walter white*/
+.walter-white {
+  position: absolute;
+  width: 95px;
+  height: 140px;
+  top: 153px;
+  left: 392px;
+}
+
+.walter-white .head {
+  position: absolute;
+  z-index: 15;
+  left: 15px;
+  top: 7px;
+  width: 79px;
+  height: 77px;
+  border: 2px solid #000;
+  border-radius: 64px / 62px;
+  background-color: #d5a171;
+}
+
+.walter-white .shades, .walter-white .shades:before {
+  width: 26px;
+  height: 15px;
+  background: #242422;
+  background: -moz-linear-gradient(top, #242422 0%, #484949 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#242422), color-stop(100%,#484949));
+  background: -webkit-linear-gradient(top, #242422 0%,#484949 100%);
+  background: -o-linear-gradient(top, #242422 0%,#484949 100%);
+  background: -ms-linear-gradient(top, #242422 0%,#484949 100%);
+  background: linear-gradient(to bottom, #242422 0%,#484949 100%);
+  border: 2px solid #000;
+  position: absolute;
+  left: 11px;
+  top: 25px;
+  border-radius: 38px/13px;
+}
+
+.walter-white .shades:before {
+  content: "";
+  position: absolute;
+  left: 27px;
+  top: -2px;
+}
