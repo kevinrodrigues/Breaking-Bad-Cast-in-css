@@ -876,7 +876,7 @@ Characters start here..
   position: absolute;
   height: 100%;
   border: 2px solid #000;
-  background-color: #3e3e3e;
+  background-color: #72a45d;
   z-index: 2;
 }
 
@@ -933,7 +933,7 @@ Characters start here..
   content: "";
   width: 15px;
   height: 32px;
-  background-color: #3e3e3e;
+  background-color: #72a45d;
   border: 2px solid #000;
 }
 
@@ -967,7 +967,7 @@ Characters start here..
   z-index: 10;
   width:4px;
   height:17px;
-  background-color: #504f4f;
+  background-color: #72a45d;
   border: 1px solid #000;
 }
 
@@ -999,7 +999,7 @@ Characters start here..
   height: 20px;
   position: absolute;
   top: 110px;
-  background-color: #2c2c2c;
+  background-color: #756943;
   left: 32px;
   border: 2px solid #000;
 }
