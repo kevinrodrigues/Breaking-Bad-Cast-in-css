@@ -840,12 +840,25 @@ Characters start here..
 
 .walter-white .beard {
   position: absolute;
-  top: 53px;
+  top: 56px;
   left: 26px;
   width: 24px;
-  height: 21px;
-  border-radius: 50px/50px;
+  height: 18px;
+  border-radius: 41px/40px;
+  border: 1px solid #2c2723;
   background-color: #6f2f14;
+}
+
+.walter-white .beard:before {
+  content: "";
+  position: absolute;
+  left: 5px;
+  top: 6px;
+  height: 4px;
+  width: 13px;
+  border: 1px solid #3f281d;
+  border-radius: 10px/10px;
+  background-color: #febe83;
 }
 
 .walter-white .shades, .walter-white .shades:before {
