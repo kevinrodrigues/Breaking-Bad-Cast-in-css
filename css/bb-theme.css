@@ -822,7 +822,7 @@ Characters start here..
   position: absolute;
   width: 95px;
   height: 140px;
-  top: 0;
+  top: 10px;
   left: 392px;
 }
 
@@ -854,11 +854,12 @@ Characters start here..
   position: absolute;
   left: 5px;
   top: 6px;
-  height: 4px;
+  height: 3px;
   width: 13px;
   border: 1px solid #3f281d;
-  border-radius: 10px/10px;
   background-color: #febe83;
+  border-top: 0px;
+  border-radius: 45px 45px 0px 0px;
 }
 
 .walter-white .shades, .walter-white .shades:before {
