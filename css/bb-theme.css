@@ -886,6 +886,16 @@ Characters start here..
   top: -2px;
 }
 
+.walter-white .shades:after {
+  content: "";
+  position: absolute;
+  left: 24px;
+  top: 3px;
+  width: 5px;
+  height: 4px;
+  background-color: #242422;
+}
+
 .walter-white .torso {
   width: 33px;
   position: absolute;
