@@ -838,6 +838,14 @@ Characters start here..
   background-color: #d5a171;
 }
 
+.walter-white .hat {
+  width: 76px;
+  height: 40px;
+  position: absolute;
+  top: -21px;
+  background-color: #000;
+}
+
 .walter-white .beard {
   position: absolute;
   top: 56px;
