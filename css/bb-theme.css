@@ -38,10 +38,8 @@ Characters start here..
 */
 
 .characters {
-    /*background: url(../img/template.png) no-repeat 0 0;*/
     position: relative;
     height: 450px;
-    overflow: hidden;
 }
 
 .characters img {
@@ -839,11 +837,32 @@ Characters start here..
 }
 
 .walter-white .hat {
-  width: 76px;
+  width: 60px;
   height: 40px;
   position: absolute;
-  top: -21px;
-  background-color: #000;
+  top: -24px;
+  left: 9px;
+  border: 2px solid #000;
+  border-top-left-radius: 18px;
+  border-top-right-radius: 18px;
+  background-color: #2d2d2d;
+}
+
+.walter-white .hat:after {
+  content: "";
+  position: absolute;
+}
+
+.walter-white .hat:before {
+  content: "";
+  position: absolute;
+  left: -23px;
+  top: 24px;
+  width: 100px;
+  height: 20px;
+  border: 2px solid #000;
+  border-radius: 50px;
+  background-color: #2d2d2d;
 }
 
 .walter-white .beard {
