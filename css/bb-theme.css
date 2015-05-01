@@ -820,8 +820,8 @@ Characters start here..
   position: absolute;
   width: 95px;
   height: 140px;
-  top: 10px;
-  left: 392px;
+  top: 12px;
+  left: 398px;
 }
 
 .walter-white .head {
@@ -838,11 +838,13 @@ Characters start here..
 
 .walter-white .hat {
   width: 60px;
-  height: 40px;
+  height: 28px;
   position: absolute;
-  top: -24px;
+  top: -21px;
   left: 9px;
-  border: 2px solid #000;
+  border-top: 2px solid #000;
+  border-left: 2px solid #000;
+  border-right: 2px solid #000;
   border-top-left-radius: 18px;
   border-top-right-radius: 18px;
   background-color: #2d2d2d;
@@ -860,12 +862,13 @@ Characters start here..
 .walter-white .hat:before {
   content: "";
   position: absolute;
+  z-index: -1;
   left: -23px;
-  top: 24px;
+  top: 22px;
   width: 100px;
-  height: 20px;
+  height: 18px;
   border: 2px solid #000;
-  border-radius: 50px;
+  border-radius: 18px/10px;
   background-color: #2d2d2d;
 }
 
