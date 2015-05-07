@@ -1226,7 +1226,13 @@ Characters start here..
   position: absolute;
   height: 100%;
   border: 2px solid #000;
-  background-color: #3e3e3e;
+  background: repeating-linear-gradient(
+    to right,
+    #1a1a1a,
+    #1a1a1a 2px,
+    #404140 2px,
+    #404140 3px
+  );
   z-index: 2;
 }
 
@@ -1283,7 +1289,13 @@ Characters start here..
   content: "";
   width: 15px;
   height: 32px;
-  background-color: #3e3e3e;
+  background: repeating-linear-gradient(
+    to right,
+    #1a1a1a,
+    #1a1a1a 2px,
+    #404140 2px,
+    #404140 3px
+  );
   border: 2px solid #000;
 }
 
@@ -1349,7 +1361,13 @@ Characters start here..
   height: 20px;
   position: absolute;
   top: 103px;
-  background-color: #2c2c2c;
+  background: repeating-linear-gradient(
+    to right,
+    #1a1a1a,
+    #1a1a1a 2px,
+    #404140 2px,
+    #404140 3px
+  );
   left: 32px;
   border: 2px solid #000;
 }
