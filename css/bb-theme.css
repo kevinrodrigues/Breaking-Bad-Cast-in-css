@@ -1112,3 +1112,321 @@ Characters start here..
   width: 6px;
   left: 7px;
 }
+
+/* Saul Goodman */
+
+.saul {
+  position: absolute;
+  width:95px;
+  height:140px;
+  top: 13px;
+  left: 512px;
+}
+
+.saul .head {
+  position: absolute;
+  z-index: 15;
+  left: 15px;
+  top: 7px;
+  width: 64px;
+  height: 70px;
+  border:2px solid #000;
+  border-radius: 54px / 59px;
+  background-color: #d5a171;
+}
+
+.saul:after, .saul:before {
+  content:"";
+  position: absolute;
+  width: 13px;
+  height: 23px;
+  top:30px;
+  border-radius: 50%;
+  background-color: #d5a171;
+  border: 2px solid #000;
+}
+
+.saul:before {
+  left: 8px;
+  transform: rotate(-27deg);
+}
+
+.saul:after {
+  left: 73px;
+  transform: rotate(27deg);
+}
+
+.saul .eyes, .saul .eyes:before {
+  width: 4px;
+  height: 7px;
+  background-color: black;
+  position: absolute;
+  left: 20px;
+  top: 28px;
+  border-radius: 50%;
+}
+
+.saul .eyes:before {
+  content:"";
+  position:absolute;
+  left:16px;
+  top:0;
+}
+/*Ear ring: could add more markup ..*/
+.saul .eyes:after {
+  content: "";
+  position: absolute;
+  left: -30px;
+  top: -5px;
+  width: 7px;
+  height: 5px;
+  background-color: #cdd1d4;
+  border-radius: 50%;
+  border: 1px solid #000;
+  transform: rotate(-27deg);
+  -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
+
+.saul .wrinkles, .saul .wrinkles:before {
+    position: absolute;
+    height: 2px;
+    background-color: #9e6c44;
+    width: 22px;
+    z-index: 9;
+    top: 22px;
+    left: 19px;
+    border-radius: 50%;
+}
+
+.saul .wrinkles:before {
+  content:"";
+  top: -4px;
+  width:16px;
+  left:2px;
+}
+
+.saul .beard {
+  width: 20px;
+  position: absolute;
+  bottom: -1px;
+  left: 20px;
+  height: 17px;
+  background-color: #dfd3c3;
+  border-radius: 200px;
+  border-bottom-right-radius: 500px;
+  border-bottom-left-radius: 500px;
+  border: 1px solid #000;
+}
+
+.saul .beard:before, .saul .beard:after {
+  content: "";
+  position: absolute;
+}
+
+.saul .beard:after {
+  left: 7px;
+  top: 5px;
+  width: 4px;
+  height: 8px;
+  background-color: #dfd3c3;
+  border-top: 1px solid #000;
+  border-left: 1px solid #000;
+  border-right: 1px solid #000;
+  border-radius: 153px;
+}
+
+.saul .beard:before {
+  width: 12px;
+  height: 10px;
+  left: 3px;
+  top: 2px;
+  background-color: #d5a171;
+  border: 1px solid #000;
+  border-radius: 300px;
+  border-bottom-right-radius: 500px;
+  border-bottom-left-radius: 500px;
+}
+
+.saul .torso {
+  width: 33px;
+  position: absolute;
+  left: 31px;
+  top: 69px;
+  height: 36px;
+  background-color: #3e3e3e;
+}
+
+.saul .torso .left, .saul .torso .right {
+  width: 51%;
+  position: absolute;
+  height: 100%;
+  border: 2px solid #000;
+  background-color: #3e3e3e;
+  z-index: 2;
+}
+
+.saul .torso .left {
+  left:0;
+}
+.saul .torso .right {
+  right: 1px;
+}
+
+.saul .torso .hands:before, .saul .torso .hands:after {
+  content: "";
+  position: absolute;
+  top:31px;
+  width: 2px;
+  height: 5px;
+  background-color: #000;
+  border-radius: 50%;
+}
+
+.saul .torso .hands:before {
+  left:-6px;
+  transform: rotate(159deg);
+}
+
+.saul .torso .hands:after {
+  left:initial;
+  right: -5px;
+  transform: rotate(-159deg);
+}
+
+.saul .torso .hands div:before, .saul .torso .hands div:after {
+  content: "";
+  position: absolute;
+  width: 11px;
+  height: 15px;
+  top: 25px;
+  background-color: #d5a171;
+  border-radius: 30px / 40px;
+  z-index: -1;
+  border: 2px solid #000;
+}
+
+.saul .torso .hands div:before {
+  left: -13px;
+}
+
+.saul .torso .hands div:after {
+  right: -12px;
+}
+
+.saul .torso .shirt:before, .saul .torso .shirt:after {
+  position: absolute;
+  content: "";
+  width: 15px;
+  height: 32px;
+  background-color: #3e3e3e;
+  border: 2px solid #000;
+}
+
+.saul .torso .shirt:before {
+  left: -7px;
+  top: -2px;
+  transform: rotate(-153deg);
+}
+
+.saul .torso .shirt:after {
+  right: -6px;
+  top: -2px;
+  transform: rotate(155deg);
+}
+
+.saul .collar:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid #71c3c5;
+  left: 11px;
+  top: 10px;
+  z-index: 9;
+}
+
+.saul .collar .left, .saul .collar .right {
+  position: absolute;
+  z-index: 10;
+  width:4px;
+  height:17px;
+  background-color: #504f4f;
+  border: 1px solid #000;
+}
+
+.saul .collar .left {
+  left: 5px;
+  top: -2px;
+  transform: rotate(139deg);
+}
+
+.saul .collar .right {
+  right: 6px;
+  top: -2px;
+  transform: rotate(-139deg);
+}
+
+.saul .collar:after {
+  content: "";
+  position: absolute;
+  top: 8px;
+  left: 11px;
+  z-index: 9;
+  width: 10px;
+  height: 2px;
+  background-color: #d5a171;
+}
+
+.saul .legs, .saul .legs:before {
+  width: 16px;
+  height: 20px;
+  position: absolute;
+  top: 103px;
+  background-color: #2c2c2c;
+  left: 32px;
+  border: 2px solid #000;
+}
+
+.saul .legs:before {
+  content: "";
+  top: -2px;
+  right: -17px;
+  left: initial;
+}
+
+.saul .shoes div {
+  position: absolute;
+  height: 11px;
+  width: 22px;
+  border-radius: 90px 90px 0 0;
+  background: #4d4b4c;
+  top: 119px;
+  left: 28px;
+  border: 1px solid #000;
+  z-index: 2;
+}
+
+.saul .shoes div:last-child {
+  right: 29px;
+  left: initial;
+  z-index: 1;
+}
+
+.saul .shoes div:before, .saul .shoes div:after {
+  content: "";
+  position: absolute;
+  width: 4px;
+  height: 1px;
+  background-color: #000;
+  top: 3px;
+  left: 8px;
+}
+
+.saul .shoes div:after {
+  top: 5px;
+  width: 6px;
+  left: 7px;
+}
