@@ -1126,11 +1126,11 @@ Characters start here..
 .saul .head {
   position: absolute;
   z-index: 15;
-  left: 15px;
+  left: 12px;
   top: 7px;
-  width: 64px;
-  height: 70px;
-  border:2px solid #000;
+  width: 71px;
+  height: 75px;
+  border: 2px solid #000;
   border-radius: 54px / 59px;
   background-color: #d5a171;
 }
@@ -1218,13 +1218,13 @@ Characters start here..
   left: 31px;
   top: 69px;
   height: 36px;
-  background-color: #3e3e3e;
+  background-color: #c99a2c;
 }
 
 .saul .torso .left, .saul .torso .right {
-  width: 51%;
+  width:46%;
   position: absolute;
-  height: 100%;
+  height: 115%;
   border: 2px solid #000;
   background: repeating-linear-gradient(
     to right,
@@ -1237,10 +1237,10 @@ Characters start here..
 }
 
 .saul .torso .left {
-  left:0;
+  left:-3px;
 }
 .saul .torso .right {
-  right: 1px;
+  right: -2px;
 }
 
 .saul .torso .hands:before, .saul .torso .hands:after {
@@ -1309,19 +1309,6 @@ Characters start here..
   right: -6px;
   top: -2px;
   transform: rotate(155deg);
-}
-
-.saul .collar:before {
-  content: "";
-  position: absolute;
-  width: 0;
-  height: 0;
-  border-left: 5px solid transparent;
-  border-right: 5px solid transparent;
-  border-top: 5px solid #71c3c5;
-  left: 11px;
-  top: 10px;
-  z-index: 9;
 }
 
 .saul .collar .left, .saul .collar .right {
