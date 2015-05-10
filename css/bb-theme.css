@@ -9,18 +9,7 @@ body {
     background: #253624;
 }
 
-@font-face {
-    font-family: 'heart_breaking_badregular';
-    src: url('../font/Heart-Breaking-Bad-webfont.eot');
-    src: url('../font/Heart-Breaking-Bad-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../font/Heart-Breaking-Bad-webfont.woff2') format('woff2'),
-         url('../font/Heart-Breaking-Bad-webfont.woff') format('woff'),
-         url('../font/Heart-Breaking-Bad-webfont.ttf') format('truetype'),
-         url('../font/Heart-Breaking-Bad-webfont.svg#heart_breaking_badregular') format('svg');
-    font-weight: normal;
-    font-style: normal;
 
-}
 .wrapper {
   width:800px;
   margin:50px auto 0 auto;
