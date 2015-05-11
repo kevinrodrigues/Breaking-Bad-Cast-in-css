@@ -1163,6 +1163,20 @@ Characters start here..
   background-color: #4b2d15;
 }
 
+.saul .hair:before {
+  content: "";
+  position: absolute;
+  z-index: 21;
+  top: 10px;
+  border: 2px solid #000;
+  width: 40px;
+  left: -3px;
+  top: 6px;
+  height: 30px;
+  border-radius: 50px/40px;
+  background-color: #4b2d15;
+}
+
 .saul .beard {
   width: 20px;
   position: absolute;
