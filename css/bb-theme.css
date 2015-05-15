@@ -1152,50 +1152,6 @@ Characters start here..
   top:0;
 }
 
-
-
-.saul .beard {
-  width: 20px;
-  position: absolute;
-  bottom: -1px;
-  left: 20px;
-  height: 17px;
-  background-color: #dfd3c3;
-  border-radius: 200px;
-  border-bottom-right-radius: 500px;
-  border-bottom-left-radius: 500px;
-  border: 1px solid #000;
-}
-
-.saul .beard:before, .saul .beard:after {
-  content: "";
-  position: absolute;
-}
-
-.saul .beard:after {
-  left: 7px;
-  top: 5px;
-  width: 4px;
-  height: 8px;
-  background-color: #dfd3c3;
-  border-top: 1px solid #000;
-  border-left: 1px solid #000;
-  border-right: 1px solid #000;
-  border-radius: 153px;
-}
-
-.saul .beard:before {
-  width: 12px;
-  height: 10px;
-  left: 3px;
-  top: 2px;
-  background-color: #d5a171;
-  border: 1px solid #000;
-  border-radius: 300px;
-  border-bottom-right-radius: 500px;
-  border-bottom-left-radius: 500px;
-}
-
 .saul .torso {
   width: 33px;
   position: absolute;
