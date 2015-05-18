@@ -868,6 +868,7 @@ Characters start here..
   width: 100px;
   height: 18px;
   border: 2px solid #000;
+  transform: rotateX(47deg);
   border-radius: 18px/10px;
   background-color: #2d2d2d;
 }
@@ -1133,6 +1134,30 @@ Characters start here..
   border: 2px solid #000;
   border-radius: 54px / 59px;
   background-color: #d5a171;
+}
+
+.saul .hair {
+  position: absolute;
+  top: 0px;
+  left: 12px;
+  width: 71px;
+  height: 75px;
+  border-radius: 54px / 59px;
+  border: 2px solid #000;
+  background-color: #4b2d15;
+}
+
+.saul .hair:before {
+  content: "";
+  position: absolute;
+  left: 13px;
+  top: 3px;
+  z-index: 999;
+  width: 40px;
+  height: 17px;
+  border-radius: 94px / 59px;
+  border-bottom: 1px solid #000;
+  background-color: #4b2d15;
 }
 
 .saul .eyes, .saul .eyes:before {
